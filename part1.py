@@ -29,4 +29,4 @@ def find_hash() -> str:
 if __name__ == "__main__":
     password = find_hash()
     with open("file1.txt", "w") as file:
-        file.write(password)
+        file.write(password) 
